@@ -19,22 +19,26 @@
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  项目依赖已经携带可以直接运行
+2.  项目需要电脑安装node环境 （我的版本14.18.1）
+3.  项目需要电脑安装redis环境 （我的版本3.2.1）
+4.  项目需要电脑安装mysql环境 （我的版本8.0以上）
 
 #### 使用说明
+##### 需要添加信息
+1.  chat_api/db/index.js里的 root 密码 数据库
+2.  chat_api/email/nodemailer.js里的  auth 参考 https://blog.csdn.net/weixin_48936527/article/details/122121085
+3.  chat_api/router_viwe/user_viwe里42行的 mail 参考 https://blog.csdn.net/weixin_48936527/article/details/122121085
+4.  chat_api/config.js里的 token加密密钥 jwtSecretKey
+5.  chat_home/src/views/Register.vue 里47行的 avatarList 注册随机头像
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
 
 #### 参与贡献
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+1.  邮箱发送验证码 https://blog.csdn.net/weixin_48936527/article/details/122121085
+2.  sockte.io教学 https://www.bilibili.com/video/BV1iF411F76n/?spm_id_from=333.999.0.0&vd_source=8995819ff3af73ef29a5a90a7be7a1f2
+3.  socket.io教学 https://www.bilibili.com/video/BV1qA411w7Vj/?spm_id_from=333.337.search-card.all.click&vd_source=8995819ff3af73ef29a5a90a7be7a1f2
+4.  redis教程 https://www.bilibili.com/video/BV1Dh4116794/?spm_id_from=333.337.search-card.all.click&vd_source=8995819ff3af73ef29a5a90a7be7a1f2
 
 
 #### 特技
