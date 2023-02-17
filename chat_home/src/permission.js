@@ -1,6 +1,6 @@
-import router from "./src/router";
-import useUserStore from "./src/stores/modules/user";
-import { getToken, removeToken } from "./src/utlis/cookie";
+import router from "./router";
+import useUserStore from "./stores/modules/user";
+import { getToken, removeToken } from "./utlis/cookie";
 
 
 const toRouter = ['/login', '/register']
